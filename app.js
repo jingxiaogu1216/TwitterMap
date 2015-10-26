@@ -8,7 +8,10 @@ var mongoose = require('mongoose');
 var Twit = require('twit');
 var http = require('http');
 
-mongoose.connect('mongodb://jingxiao:jingxiao@ds043200.mongolab.com:43200/twit');
+//username: guest
+//password: guest
+//For the consideration of security, we make the "guest" account read-only
+mongoose.connect('mongodb://guest:guest@ds043200.mongolab.com:43200/twit');
 
 
 var routes = require('./routes/index');

@@ -46,7 +46,7 @@ exports.twitter.getTweetLocationData = function (keyword, callback) {
 
 exports.twitter.getTweetNYCdata = function (callback) {
     console.log("NYC")
-    Twitter.find({lat:{$lt:41,$gt:40},lng:{$lt:-73,$gt:-74}},function (err, doc) {
+    Twitter.find({lat:{$lt:45,$gt:39},lng:{$lt:-70.5,$gt:-75}},function (err, doc) {
         if (err) {
             console.log("error")
             callback(err, null)
