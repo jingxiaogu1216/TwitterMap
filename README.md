@@ -14,4 +14,6 @@ http://tweetmap-jghs.elasticbeanstalk.com
 #Installation
 1. git clone the project
 2. change directory to the project and run "sudo npm install"
-3. run "node app.js"
+3. run "node app.js".
+# Note
+For the consideration of security, we give your "guest" account for twitter Mongodb. If you want write permission, please contact me via jingxiao1216@gmail.com
